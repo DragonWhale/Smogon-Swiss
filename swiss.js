@@ -15,12 +15,12 @@ function startTournament() {
   document.getElementById('outputArea').innerText = outputList;
 }
 
-// if(document.cookie.length > 0){
-//   console.log("there is a cookie");
-// } else {
-//   document.cookie = "name=test expires=Fri, 31 Dec 9999 23:59:59 GMT";
-//   console.log("a cookie has been set");
-// }
+if(document.cookie.length > 0){
+  console.log("there is a cookie");
+} else {
+  document.cookie = "name=test expires=Fri, 31 Dec 9999 23:59:59 GMT";
+  console.log("a cookie has been set");
+}
 
 
 var data = {a:1, b:2, c:3};
