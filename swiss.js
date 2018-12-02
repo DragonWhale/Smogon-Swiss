@@ -18,6 +18,8 @@ function startTournament() {
 if(document.cookie){
   console.log("there is a cookie");
   console.log(document.cookie);
+  document.cookie = "username=; expires=Thu, 01 Jan 1970 00:00:00 UTC;"
+  console.log("cookie was deleted");
 } else {
   document.cookie = "name=test; expires=Fri, 31 Dec 9999 23:59:59 GMT";
   console.log("a cookie has been set");
