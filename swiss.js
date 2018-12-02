@@ -19,7 +19,7 @@ if(document.cookie){
   console.log("there is a cookie");
   console.log(document.cookie);
 } else {
-  document.cookie = "name=test expires=Fri, 31 Dec 9999 23:59:59 GMT";
+  document.cookie = "name=test; expires=Fri, 31 Dec 9999 23:59:59 GMT";
   console.log("a cookie has been set");
 }
 
